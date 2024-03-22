@@ -873,6 +873,14 @@ footer .policy a{
       width: 70%;
     }
 
+    .section-new-items .photos .photo {
+      width: 70%;
+    }
+    
+    .section-new-items .photos .photo img {
+      width: 100%;
+    }
+
     .section-product .item p {
         font-size: 18px;
     }
