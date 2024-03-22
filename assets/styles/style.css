@@ -869,6 +869,10 @@ footer .policy a{
         margin-bottom: -30px;
     }
 
+    .section-categories .cards .card {
+      width: 70%;
+    }
+
     .section-product .item p {
         font-size: 18px;
     }
