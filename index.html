@@ -142,13 +142,24 @@
                     <input type="text" placeholder="Введите промокод">
                 </div>
                 <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                
                 <div class="interactive">
+                    <input type="radio" name="things" id="t1">
+                    <input type="radio" name="things" id="t2">
+                    <input type="radio" name="things" id="t3">
                     <div class="radios">
-                        <p>Описание</p>
-                        <p>Материал</p>
-                        <p>Уход</p>
+                        <label for="t1" id="l1">
+                            <p>Описание</p>
+                        </label>
+                        <label for="t2" id="l2">
+                            <p>Материал</p>
+                        </label>
+                        <label for="t3" id="l3">
+                            <p>Уход</p>
+                        </label>  
                     </div>
                     <div class="line"></div>
+                    
                     <p>Костюм из костюмной поливискозы. Брюки с высокой посадкой, широкие, прямые, удлиненные, с  застежкой на молнию и крючок. Жакет прямого свободного силуэта, на подкладке, с двубортной застежкой на пуговицы.  Костюмная поливискоза — тонкая, мягкая, легкая в уходе ткань. Не мнется, сочетается с другими материалами.</p>
                 </div>
             </div>
@@ -220,12 +231,19 @@
                     <input class="form-in" type="text" placeholder="Введите вашу почту" name="" id="">
                     <p>Выберите тип рассылки</p>
                     <div class="radios">
-                        <input type="radio">
-                        <p>Советы от стилистов</p>
-                        <input type="radio">
-                        <p>Промокоды на скидку</p>
-                        <input type="radio">
-                        <p>Новости</p>
+                        <div class="radio">
+                            <input type="radio" checked name="mailing-type" id="t1">
+                            <p>Советы от стилистов</p>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="mailing-type" id="t2">
+                            <p>Промокоды на скидку</p>
+                        </div>
+                        
+                        <div class="radio">
+                            <input type="radio" name="mailing-type" id="t3">
+                            <p>Новости</p>
+                        </div>
                     </div>
                     <div class="checkbox">
                         <input type="checkbox" name="" id="">
